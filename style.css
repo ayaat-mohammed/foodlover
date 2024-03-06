@@ -88,3 +88,117 @@ form input, textarea {display:block; width: 100%; padding: 20px 15px; margin: 20
     color: #fff;
     padding: 20px 0;
     font-size: 14px; }
+/*<!-----------mediaqyary-------------->*/
+    @media screen and (max-width:480px) {
+      .navbar-right img {margin-left: 20px;}
+      nav ul li {display:none;}
+      nav ul i {display: block; font-size: 40px; color: white; display: flex; align-items: center; justify-content: space-between; cursor: pointer;}
+     header .content h1{font-size: 28px;}
+     #about{height: auto; padding: 4rem 2rem;}
+   #about .about-content p {
+     margin-right: 2rem;
+    }
+     #about .about-content{display: flex; flex-direction: column;}
+     
+   #about img {
+    width: 250px; padding-top: 30px;
+    }
+     
+      /*<!-----------offers-------------->*/
+      #offers {height: 80vh; display: flex ; justify-content:center; background: url(photo/offer-background.jpg) center center /cover fixed;  }
+      
+      #offers h2{ font-size: 30px;}
+      #offers .title p{ font-size: 14px;}
+     
+      #offers .offers-items img{width: 70px;}
+      #offers .offers-items h3{font-size: 13px; }
+      #offers .offers-items p{font-size: 14px;  margin-bottom:10px;}
+      #offers .offers-items span{ font-size: 15px; }
+#menu .menu-items {display: flex; flex-direction: column;}
+#menu .title h2{font-size: 25px;}
+#menu .title p{font-size: 14px;}
+#menu .menu-items .menu-item img{width: 60px; border-radius: 50%; margin-right: 20px;}
+#menu .menu-items .menu-item h3{ font-size:1rem;}
+#menu .menu-items .menu-item span{ left: 200px;}
+
+/*<!-----------day time -------------->*/
+
+#daytime .daytime-itmes{ height: 80vh;  flex-wrap: wrap;}
+.daytime-item img{width: 50%; }
+#daytime .daytime-itmes h3{font-size: 15px; margin: 16px 0 8px;}
+#daytime .daytime-itmes p{font-weight: 300; font-size: 14px; }
+/*<!-----------gallery -------------->*/
+#gallery{background: url(photo/offer-background.jpg) center center/cover no-repeat; padding: 8rem 0 6rem;}
+ #gallery .img-gallery img{width:280px; height:200px; border-radius: 15px; margin: 20px; }
+ #gallery h2{ font-size: 2rem;}
+ 
+   /* <!-----------contact us -------------->*/
+   
+#contact .contact-content{ flex-direction: column;}
+#contact .contact-content .contact-info{width: 100%;}
+form {width:100%;}     
+  
+    
+    
+    }
+/* <!-----------mediaquary tab -------------->*/
+@media screen and (min-width:481px) and (max-width:820px) {.navbar-right img {margin-left: 20px;}
+nav ul li {display:none;}
+nav ul i {display: block; font-size: 40px; color: white; display: flex; align-items: center; justify-content: space-between; cursor: pointer;}
+header .content h1{font-size: 28px;}
+#about{height: auto; padding: 4rem 2rem;}
+   #about .about-content p {
+     margin-left: 3rem; font-size: 20px;
+    }
+    #about .btn-secondary{ margin-left: 200px;}
+     #about .about-content{display: flex; flex-direction: column;}
+     
+   #about img {
+    width: 250px; padding-top: 30px; margin-left: 200px;
+    }
+     .content p{font-size: 20px;}
+     .content  .btn-primary{font-size: 25px;}
+    /*<!-----------offers-------------->*/
+      #offers h2{ font-size: 50px;}
+      #offers .title p{ font-size: 30px;}
+      #offers .offers-items img{width: 100px;}
+      #offers .offers-items h3{font-size: 25px; }
+      #offers .offers-items p{font-size: 30px;  margin-bottom:20px;}
+      #offers .offers-items span{ font-size: 35px; }
+#menu .menu-items {display: flex; flex-direction: column;}
+#menu .title h2{font-size:30px;}
+#menu .title p{font-size: 35px;}
+#menu .menu-items .menu-item img{width: 80px; border-radius: 50%; margin-right: 10px;}
+#menu .menu-items .menu-item h3{ font-size:2rem;}
+#menu .menu-items .menu-item p{font-size: 25px;}
+#menu .menu-items .menu-item span{ right: 10px;}
+#menu  .btn{font-size: 30px;}
+
+/*<!-----------day time -------------->*/
+#daytime .daytime-itmes{ height: 80vh;   display: flex; flex-direction: column;}
+.daytime-item img{width: 50%; }
+#daytime .daytime-itmes h3{font-size: 40px; margin: 16px 0 8px;}
+#daytime .daytime-itmes p{font-weight: 300; font-size: 30px; }
+/*<!-----------gallery -------------->*/
+#gallery{background: url(photo/offer-background.jpg) center center/cover no-repeat; padding: 8rem 0 6rem;}
+ #gallery .img-gallery img{width:280px; height:200px; border-radius: 15px; margin: 20px; }
+ #gallery h2{ font-size: 2rem;}
+ 
+   /* <!-----------contact us -------------->*/
+   #contact .contact-content{ flex-direction: column;}
+   #contact .contact-content .contact-info{width: 100%;}
+   form {width:100%;}   
+   #contact .contact-content h3{font-size: 30px;}  
+   #contact .contact-content p{font-size: 25px;}
+    form input {font-size: 30px;}
+    form textarea{font-size: 30px;}
+    footer p{font-size: 25px; font-weight: 500;}
+   
+
+
+
+}
+  
+
+
+
